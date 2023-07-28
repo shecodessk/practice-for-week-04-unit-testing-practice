@@ -44,5 +44,9 @@ class Word {
     }
   }
 }
+let user = new Word('Hello')
+console.log(user.removeVowels())
+console.log(user.removeConsonants())
+console.log(user.pigLatin())
 
 module.exports = { Word };
